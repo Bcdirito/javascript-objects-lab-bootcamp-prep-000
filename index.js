@@ -15,6 +15,6 @@ function deleteFromObjectByKey(object, key) {
   return recipes;
 }
 function destructivelyDeleteFromObjectByKey(object, key) { //the test will pass in the object as the first argument. You can then call it as object to refer to it
-  delete recipes.prop;
+  delete object.prop;
   return object;
 }

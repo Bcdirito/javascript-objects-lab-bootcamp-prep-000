@@ -3,7 +3,7 @@ var recipes = {
   sauce: 'tomato',
   cheese: 'mozzarella'
 };
-function updateObjectWithKeyandValue (object, key, value) {
+function updateObjectWithKeyandValue(object, key, value) {
   var obj = {prop: 1};
   return Object.assign({}, obj, 'prop2', '2');
 }

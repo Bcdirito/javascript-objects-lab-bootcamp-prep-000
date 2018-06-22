@@ -4,4 +4,4 @@ var recipes = {
   cheese: 'mozzarella'
 };
 function updateObjectWithKeyandValue (object, key, value) {
-  return.Object.array(recipes, {[]})
+  return.Object.array(recipes, {['prop']: '1'}, )

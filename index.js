@@ -11,5 +11,6 @@ function destructivelyUpdateObjectWithKeyandValue(object, key, value) {
   return obj;
 }
 function deleteFromObjectByKey(object, key) {
-  delete recipes.prop
+  delete recipes.prop;
+  return recipes;
 }

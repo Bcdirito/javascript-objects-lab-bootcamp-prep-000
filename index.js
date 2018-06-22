@@ -8,7 +8,7 @@ function updateObjectWithKeyandValue (object, key, value) {
 }
 function destructivelyUpdateObjectWithKeyandValue(object, key, value) {
   obj[key] = value;
-  return obj;
+  return recipes;
 }
 function deleteFromObjectByKey(object, key) {
   delete recipes.prop;
